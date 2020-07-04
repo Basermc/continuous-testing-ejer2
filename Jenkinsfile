@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    WORKINGDIR = "demo"
+    WORKINGDIR = "./"
   }
   stages {
     stage('Configure Kubernetes Access') {
