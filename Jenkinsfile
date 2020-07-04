@@ -15,7 +15,7 @@ pipeline {
       when {
         beforeAgent true
         allOf {
-          changeRequest target: 'develop'
+          changeRequest target: 'master'
         }
       }
       steps{
